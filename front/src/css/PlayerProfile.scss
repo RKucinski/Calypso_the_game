@@ -1,0 +1,166 @@
+@import "color.scss";
+
+.profileContainer-mobile {
+  margin: 0 10px;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .nav li {
+    background-color: #56c8cc;
+    display: inline-block;
+  }
+
+  .nav a,
+  .nav li {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .nav-link.active {
+    background-color: $bleuTurquoise !important;
+  }
+}
+
+
+
+.player-info {
+  box-shadow: 0px 0px 5px $bleuDark;
+
+
+  &.equipment {
+    display: flex;
+    justify-content: center;
+    height: 45vh;
+  }
+
+  &.equipment,
+  &.boat {
+    margin-top: 20px;
+    background: #d6fffe;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    padding: 20px 0;
+  }
+
+  .equipment-col {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .equipment-box {
+
+    background-color: $bleuFoncé;
+    height: 8vh;
+    width: 8vh;
+    // width: 50%;
+    // max-width: 110px;
+    // height: auto;
+    border: 2px solid #212428;
+    border-radius: 8px;
+    margin: 20px auto;
+  }
+
+  &.boat .equipment-box {
+    background-color: $bleuFoncé;
+
+    margin-bottom: 0px;
+  }
+
+  .piratesImg {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 30vh;
+
+    img {
+      max-height: 120%;
+      max-width: 120%;
+    }
+  }
+
+  .perso-img-col {
+    //margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 30vh;
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+
+
+.player-avatar {
+  width: 200px;
+}
+
+/* inventaire du joueur */
+
+.dropdown-toggle {
+
+  border-radius: 8px;
+
+  background-color: $bleuTurquoise !important;
+  margin-top: 30px;
+  color: black !important;
+}
+
+.rowPlayerProfil {
+  width: 100%;
+
+
+}
+
+
+.equipment-row {
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px $bleuDark;
+  padding: 0 !important;
+  background-color: $bleuTurquoise;
+  justify-content: space-between !important;
+  margin-bottom: 5vh;
+
+  .col-md-12 {
+    display: flex;
+    justify-content: space-around !important;
+  }
+
+  //margin: 10px 10px !important;
+}
+
+.player-info.boat {
+  height: 45vh;
+}
+
+
+
+
+
+.equipment-box-i {
+  justify-content: center !important;
+  background-color: $bleuFoncé;
+  height: 8vh;
+  width: 8vh;
+  border: 2px solid #212428;
+  border-radius: 8px;
+
+  margin: 5vh 0;
+
+
+
+}

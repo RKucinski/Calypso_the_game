@@ -1,0 +1,59 @@
+/* Css component UserBanner.jsx */
+@import "color.scss";
+
+.profileContainer {
+    .userbanner {
+        background-color: $violet;
+
+    }
+
+    .bgAvatarBanner {
+        margin: 0 10px;
+        padding: 10px 0;
+        background-color: $violet;
+        border-radius: 8px;
+    }
+
+
+
+}
+
+.userbanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: $bleuFoncé;
+
+
+    &.nav p {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    &.nav img {
+        margin: 0 10px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .namePlayer {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #eee
+    }
+
+    .nbr_abo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #eee;
+        font-weight: bold;
+    }
+
+    .buttonBanner {
+
+        background-color: transparent;
+        border: none;
+    }
+}

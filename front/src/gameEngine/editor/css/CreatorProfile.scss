@@ -1,0 +1,23 @@
+/* Css component CreatorProfile.jsx */
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+$navIconSize: 50px;
+$navIconPaddingSize: 15px;
+$navSize: $navIconSize+$navIconPaddingSize * 2;
+
+
+@media (orientation: landscape) {
+    .tab-content {
+
+
+
+        .tab-pane {
+            height: 70vh;
+        }
+    }
+
+
+}

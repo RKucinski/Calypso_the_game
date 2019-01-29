@@ -1,0 +1,114 @@
+/* Css du component */
+@import 'color';
+
+.Intro {
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+}
+
+/* Titre Calypso */
+.Calypso {
+  width: 85%;
+}
+
+.PoulpeTalk {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.Mascotte {
+  width: 250px;
+}
+
+p {
+  margin: 2vw;
+}
+
+.containerAuth {
+  box-shadow: 0px 0px 5px $darkGrey;
+  padding: 0 !important;
+  // margin-left: 20%;
+  // margin-right: 20%;
+  margin-bottom: 13vh;
+  border-radius: 10px;
+  //width: 30% !important;
+  background-size: cover;
+  background-color: #ABE3D1 !important;
+}
+
+.containerSign {
+  box-shadow: 0px 0px 5px #666;
+  // margin-left: 20%;
+  // margin-right: 20%;
+  margin-bottom: 10vh;
+  border-radius: 10px;
+  // width: 30% !important;
+  background-size: cover;
+  background-color: #ABE3D1 !important;
+}
+
+@media screen and (max-width: 575px) {
+  .col-12 {
+
+    max-width: 80% !important;
+  }
+}
+
+
+
+
+
+$bleuFoncé: #5CB2A7;
+
+legend {
+
+  padding: 10px 0 !important;
+  color: #eee !important;
+  border-radius: 10px 10px 0 0;
+  background-color: $bleuFoncé !important;
+}
+
+.test {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Auth {
+  margin: auto;
+  height: auto;
+  background-image: url(../assets/backgroundSiteDesk.jpg) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.form-group {
+  padding: 2vh;
+  margin: 0 8% !important;
+}
+
+fieldset {
+  width: 100% !important;
+  margin: 2%;
+
+}
+
+.form-control {}
+
+.validation {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  background-color: $bleuFoncé !important;
+}
+
+.validSign {
+
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+  background-color: $bleuFoncé !important;
+}

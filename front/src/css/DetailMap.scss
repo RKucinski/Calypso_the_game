@@ -1,0 +1,33 @@
+@import "color.scss";
+
+.detailMap {
+  .mapDet {
+    margin: 0 !important;
+    border-radius: 8px;
+  }
+
+  .completeMapDetail,
+  .commentArea {
+    // border: 2px solid $bleuTurquoise;
+    border-radius: 20px;
+    background-color: $bleuTurquoise;
+    margin-top: 5vh;
+  }
+
+  .commentAreaCol {
+    margin: auto;
+  }
+
+  .commentArea {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  .boutonPlay {
+    background-color: $violet;
+    padding: 10px 20px;
+    margin: 2vh 0 5vh 0;
+
+
+  }
+}

@@ -1,0 +1,79 @@
+/* Css component GodMap.jsx */
+.godmap {
+  .row-map {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .row-map p {
+    margin: 5px auto 10px auto;
+  }
+
+  .signeAjout {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #efc537;
+    font-size: 26px;
+  }
+
+  .ajoutCarte {
+    border-radius: 5px;
+    border: 1px solid black;
+    vertical-align: baseline;
+    padding: 8px 30px;
+    color: black;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #ffcf3b;
+    border-bottom: 1px solid black;
+  }
+
+  .nav p {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .nav img {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .navtabs {
+    background-color: white;
+  }
+
+  .navtabs li {
+    margin: 10px;
+  }
+
+  .factive {
+    background-color: #ffed60 !important;
+    border-color: #ffed60 !important;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+  }
+
+  .tab-pane.active {
+    background-color: #ffed60 !important;
+    border-color: #ffed60 !important;
+  }
+
+  .tab-pane {
+    padding-top: 20px;
+  }
+}

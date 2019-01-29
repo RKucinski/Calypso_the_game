@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: none;
+
+    .row {
+      margin: 0;
+    }
+  }
+}
+
+$navIconSize: 50px;
+$navIconPaddingSize: 15px;
+$navSize: $navIconSize + $navIconPaddingSize * 2;
+
+@media (orientation: portrait) {
+  .App {
+    .container {
+      margin-bottom: $navSize;
+    }
+  }
+}
+
+@media (orientation: landscape) {
+  .App {
+    .container {
+      margin-left: $navSize;
+      width: calc(100% - #{$navSize});
+    }
+  }
+}
+.fullscreen-enabled {
+  background: #cccccc;
+}

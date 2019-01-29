@@ -1,0 +1,95 @@
+.profileContainer-mobile {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .nav li {
+    background-color: #56c8cc;
+    display: inline-block;
+  }
+  .nav a,
+  .nav li {
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.player-info {
+  &.equipment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &.equipment,
+  &.boat {
+    margin-top: 20px;
+    background: #d6fffe;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    padding: 20px 0;
+  }
+  .equipment-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+
+  .equipment-box {
+    height: 8vh;
+    width: 8vh;
+    // width: 50%;
+    // max-width: 110px;
+    // height: auto;
+    border: 2px solid #212428;
+    border-radius: 8px;
+    margin: 20px auto;
+  }
+  &.boat .equipment-box {
+    margin-bottom: 0px;
+  }
+
+  .perso-img-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 30vh;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+.player-avatar {
+  width: 200px;
+}
+
+/* inventaire du joueur */
+
+.dropdown-i {
+  margin-top: 30px;
+  color: #65f0db;
+}
+
+.rowPlayerProfil {
+  width: 100%;
+}
+
+.equipment-box-i {
+  justify-content: center !important;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #212428;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.equipment-row {
+  justify-content: center !important;
+  margin: 10px 10px !important;
+}

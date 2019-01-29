@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: none;
+
+    .row {
+      margin: 0;
+    }
+  }
+}
+
+$navIconSize: 50px;
+$navIconPaddingSize: 15px;
+$navSize: $navIconSize+$navIconPaddingSize * 2;
+
+@media (orientation: portrait) {
+  .App {
+
+
+
+    .container {
+      background-image: url(../assets/backgroundSiteDesk.jpg) !important;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin-bottom: $navSize;
+    }
+
+  }
+}
+
+@media (orientation: landscape) {
+  .App {
+
+
+    .container {
+      background-image: url(../assets/backgroundSiteDesk.jpg) !important;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin-left: $navSize;
+      width: calc(100% - #{$navSize});
+    }
+
+
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "calypso",
+    "version": "0.1.0",
+    "scripts": {
+      "postinstall": "npm install --prefix back && npm install --prefix front &&  npm run build --prefix front && rm -rf back/public/* && mv front/build/* back/public/"
+    }
+  }

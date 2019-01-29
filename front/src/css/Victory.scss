@@ -1,0 +1,82 @@
+@import "color.scss";
+
+.victoryBg {
+
+    background-image: url(../assets/backgroundSiteDesk.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .container {
+        padding: 2vh 0;
+
+        align-content: center;
+        display: flex;
+        justify-content: center;
+
+        .victoryContainer {
+            margin-bottom: 10vh;
+
+            background: #d6fffe;
+            border-radius: 20px;
+            border: 1px solid lightgrey;
+            margin-top: 10vh;
+
+            padding-bottom: 10vh;
+            box-shadow: 0px 0px 5px #3E3D4A;
+
+            .itemVictory {
+                border-radius: 5px;
+                margin: 5vh 0;
+                widows: 80px;
+                height: 80px;
+                background-color: $bleuFoncé;
+                padding: 20px;
+            }
+
+            .ResultGame {
+                font-size: 3em;
+                font-weight: bold;
+                color: $bleuDark;
+                padding-top: 8vh;
+            }
+
+            .monnaie {
+                flex-direction: row;
+                height: auto;
+                display: block;
+                color: $bleuDark;
+                font-size: 1.5em;
+                padding-top: 4vh;
+            }
+        }
+
+
+    }
+
+
+}
+
+
+
+.Gains {
+    margin-top: 40px;
+    font-size: 2em;
+    font-weight: bold;
+    color: $bleuDark;
+}
+
+.Buttons {
+    margin-top: 50px !important;
+}
+
+
+
+.icon {
+    border-radius: 5px;
+    padding: 10px 20px !important;
+    background-color: $bleuDark !important;
+    color: #eee !important;
+    border: none !important;
+}

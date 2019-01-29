@@ -1,0 +1,22 @@
+.Sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+
+  input {
+    text-align: center;
+  }
+
+  fieldset {
+    width: 200px;
+    margin: auto !important;
+
+  }
+
+  .submit {
+    border: 1px;
+    border-color: black;
+  }
+}

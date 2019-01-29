@@ -1,0 +1,52 @@
+/* Css component CreatorProfile.jsx */
+@import "color.scss";
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-image: url(../assets/backgroundSiteDesk.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+
+    .userbanner {
+        background-color: $ocre;
+    }
+
+    .bgAvatarBanner {
+        border-radius: 8px !important;
+        margin: 0 10px;
+        padding: 10px 0;
+        background-color: $ocre;
+    }
+
+
+}
+
+.tab-content {}
+
+$navIconSize: 50px;
+$navIconPaddingSize: 15px;
+$navSize: $navIconSize+$navIconPaddingSize * 2;
+
+@media (orientation: landscape) {
+    .container {
+
+        height: 150vh;
+    }
+}
+
+@media (orientation: landscape) {
+    .tab-content {
+
+
+
+        .tab-pane {
+            height: 70vh;
+        }
+    }
+
+
+}
